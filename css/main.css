@@ -11,6 +11,10 @@ th, td {
   border: 1px solid #e2e2e2;
 }
 
+tbody td {
+  height: 11em;
+}
+
 .event {
   border-radius: 5px;
 }
@@ -18,22 +22,24 @@ th, td {
 .event-grey {
   background-color: #f2f2f2;
   border: 1px solid #666;
+  color: #333;
 }
 
 .event-red {
   background-color: #f2bcbc;
   border: 1px solid #b92828;
-  color: #b92828;
+  color: #991919;
 }
 
 .event-green {
   background-color: #d1e0bf;
   border: 1px solid #6b7e54;
-  color: #6b7e54;
+  color: #51603f;
+  border-radius: 8px;
 }
 
 .event-blue {
   background-color: #d2d6f0;
   border: 1px solid #1d38da;
-  color: #1d38da;
+  color: #38448e;
 }
