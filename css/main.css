@@ -1,3 +1,7 @@
+html {
+  font-family: Merriweather, serif;
+}
+
 table {
   border: 1px solid #ccc;
   border-collapse: collapse;
@@ -5,7 +9,6 @@ table {
 
 th, td {
   border: 1px solid #e2e2e2;
-  padding: 0.75em;
 }
 
 .event {
@@ -20,14 +23,17 @@ th, td {
 .event-red {
   background-color: #f2bcbc;
   border: 1px solid #b92828;
+  color: #b92828;
 }
 
 .event-green {
   background-color: #d1e0bf;
   border: 1px solid #6b7e54;
+  color: #6b7e54;
 }
 
 .event-blue {
   background-color: #d2d6f0;
   border: 1px solid #1d38da;
+  color: #1d38da;
 }
